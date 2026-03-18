@@ -80,12 +80,12 @@ public class Main {
                             System.out.println("Không tìm thấy ID!");
                         }
                         break;
-
                     default:
-                        System.out.println("Lựa chọn từ 1-5!");
+                        System.out.println("Lựa chọn không phù hợp");
+                        break;
                 }
             } catch (Exception e) {
-                System.out.println("Lỗi nhập liệu: Vui lòng kiểm tra lại định dạng số!");
+                System.out.println("Lỗi nhập");
             }
         }
     }
